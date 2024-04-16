@@ -352,7 +352,7 @@ const charadexLarge = async (options) => {
         };
 
         // Filter out the right card
-        let singleCard = sheetArray.filter((i) => i[cardKey].includes(urlParams.get(cardKey)))[0];
+        let singleCard = sheetArray.filter((i) => (i[cardKey] === urlParams.get(cardKey)))[0];
 
         // Render card
         let charadexItem = new List("charadex-gallery", itemOptions, singleCard);
@@ -450,7 +450,7 @@ const masterlist = async (options) => {
 
         // Filter out the right card
         let currCardKey = urlParams.has(cardKey) ? cardKey : cardKeyAlt;
-        let singleCard = sheetArray.filter((i) => i[currCardKey].includes(urlParams.get(currCardKey)))[0];
+        let singleCard = sheetArray.filter((i) => (i[currCardKey] === urlParams.get(currCardKey)))[0];
 
         // Grab the log sheet and render log
         let logArray = await fetchSheet(charadexInfo.logSheetPage);
@@ -537,7 +537,7 @@ const inventory = async (options) => {
         };
 
         // Filter out the right card
-        let singleCard = sheetArray.filter((i) => i[cardKey].includes(urlParams.get(cardKey)))[0];
+        let singleCard = sheetArray.filter((i) => (i[cardKey] === urlParams.get(cardKey)))[0];
 
         // Merge the user's inventory with the item sheet
         // Also remove any items they dont have atm
@@ -549,7 +549,7 @@ const inventory = async (options) => {
                         type: i.type,
                         item: i.item,
                         image: i.image,
-                        itemlink: folderURL + "/items.html?" + itemCardKey + "=" + i.item,
+                        itemlink: folderURL + "/items.html?" + itemCardKey + "=" + i[itemCardKey],
                         amount: singleCard[keyCreator(i.item)],
                     };
                     inventoryItemArr.push(inventoryItems);
