@@ -27,9 +27,9 @@
   /* ============================================================= */
   /* Backgrounds
   ================================================================ */
-  --cd-body-background-color:            #795547;
+  --cd-body-background-color:            #4c3d3e;
   --cd-content-background-color:         #bc9485;
-  --cd-faded-background-color:           #795547;
+  --cd-faded-background-color:           #4c3d3e;
 
   /* Background Extras */
   --cd-body-background-image:             url(https://f2.toyhou.se/file/f2-toyhou-se/images/84001370_JSwL1ZRIoHfAPu2.jpg?1722090111);
@@ -105,7 +105,7 @@
   /* Link
   ================================================================ */
 
-  --cd-link-text-color:                  #4c8ebd;
+  --cd-link-text-color:                  #d6ba1b;
   --cd-link-text-color-hover:            var(--cd-secondary-color);
 
 
