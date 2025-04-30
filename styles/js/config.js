@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Slekutti",
-  url: "https://slekutti.weebly.com",
+  url: "https://slekutti.github.io/Slekutti/",
   description: `Slekutti are an 18+ Original Closed Species created by mephistolas.`
 }
 
