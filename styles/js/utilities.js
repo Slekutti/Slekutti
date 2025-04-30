@@ -359,7 +359,7 @@ charadex.importSheet = async (sheetPage, sheetId = charadex.sheet.id) => {
 
   // Attempt to get it
   const sheetJSON = await fetch(importUrl).then(i => i.text()).catch(err => {
-    return alert(`${err} sheet. Please make sure that the sheet is public and that you're only using the ID.`);
+    return console.error(`${err} sheet. Please make sure that the sheet is public and that you're only using the ID.`);
   });
 
   // Parse the text
