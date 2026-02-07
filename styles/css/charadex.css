@@ -32,7 +32,7 @@ body {
   --cd-faded-background-color: #f8f8f8;
 
   /* Background Extras */
-  --cd-body-background-image: url();
+  --cd-body-background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/88200357_G5mXGcvufcdOjBi.jpg');
 
   /* ============================================================= */
   /* Text
@@ -142,7 +142,7 @@ body {
   /* Pagination
   ================================================================ */
 
-  /* Background */
+  /*  */
   --cd-pagination-background-color: transparent;
   --cd-pagination-background-hover: transparent;
 
