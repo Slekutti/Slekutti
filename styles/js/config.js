@@ -42,12 +42,12 @@ charadex.sheet = {
 
   options: {
 
-    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design'],
-    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased'],
+    designTypes: ['All', 'Official Design', 'Guest Design', 'MYO Slot', 'MYO Design', 'NPC Design'],
+    statuses: ['All', 'Resell', 'Trade', 'Gift', 'Voided', 'For Sale', 'Purchased', 'NPC-Status', 'Available'],
     rarity: ['All', 'Standard', 'Mutation', 'Mythical', 'Modified'],
-    species: ['All', 'Standard', 'Mutations', 'Mythical'],
-    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Cosmetics', 'Misc'],
-    traitTypes: ['All', 'Ears', 'Eyes', 'Body', 'Limbs', 'Tails', 'Misc', 'Mutations']
+    species: ['All', 'Standard', 'Mutations', 'Mythical', 'Crossbreed'],
+    itemTypes: ['All', 'Currency', 'MYO Slot', 'Pet', 'Trait', 'Cosmetics', 'Misc', 'Creature'],
+    traitTypes: ['All', 'Required', 'Ears','Body', 'Limbs', 'Tails', 'Face', 'Hands', 'Wings', 'Blade Materials', 'Horns']
 
   }
 
