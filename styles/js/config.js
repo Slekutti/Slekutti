@@ -16,7 +16,7 @@ let charadex = {};
 /* ==================================================================== */
 charadex.site = {
   title: "Slekutti",
-  url: "https://toyhou.se/~world/161434.slekutti",
+   url: "https://slekutti.github.io/Slekutti/",
   description: `This is the official Slekutti Masterlist website.`
 }
 
